@@ -1,0 +1,45 @@
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+textarea{
+    font-size: 18px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+h1{
+    background-color: rgb(255, 106, 205);
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    margin-top: 0px;
+}
+button{
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+p{
+    margin: auto;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color:rgb(255, 106, 205) ;
+    color: white;
+}
+
+footer {
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(255, 106, 205);
+    color: white;
+    text-align: center;
+ }
