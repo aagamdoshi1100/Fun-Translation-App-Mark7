@@ -27,6 +27,13 @@ function dataConversion(finalURL){
         var translatedtext = json.contents.translated;
         Output.innerText = translatedtext;
     
-    })
+    }).catch(errorHandler)
 
+}
+
+
+function errorHandler(error){
+
+    console.log("Something went wrong with server");
+    Output.innerText = "Something went wrong with server" + error;
 }
